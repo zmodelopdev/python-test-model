@@ -4,6 +4,8 @@
 import json
 import math
 
+# This is a test comment
+
 #modelop.init
 def begin():
     global coefs
