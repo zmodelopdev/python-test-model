@@ -3,7 +3,6 @@
 
 import json
 import math
-# a comment
 
 #modelop.init
 def begin():
@@ -11,7 +10,6 @@ def begin():
     coefs = json.load(open('external_file_asset.json', 'r'))
     pass
 
-#a change
 #modelop.score
 def action(datum):
     prediction = compute_prediction(datum)
