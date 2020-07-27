@@ -3,7 +3,6 @@
 
 import json
 import math
-# a comment here
 
 #modelop.init
 def begin():
