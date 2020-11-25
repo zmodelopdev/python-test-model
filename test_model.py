@@ -17,6 +17,7 @@ def begin():
 #modelop.score
 def action(datum):
     prediction = compute_prediction(datum)
+    print("Can you hear me now?", flush=True)
     yield prediction
 
 def compute_prediction(datum):
