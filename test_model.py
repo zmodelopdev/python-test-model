@@ -17,7 +17,8 @@ def begin():
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
     for x in range(10):
-        print(x, flush=True) 
+        print(x, flush=True)
+        time.sleep(5)
     pass
 
 #modelop.score
