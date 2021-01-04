@@ -1,7 +1,6 @@
 #fastscore.schema.0: input_schema.avsc
 #fastscore.schema.1: output_schema.avsc
 
-from time import sleep
 import json
 import math
 
@@ -9,18 +8,13 @@ import math
 
 # This is a second test comment
 
-print("Starting program")
+print("Starting program", flush=True)
 
 #modelop.init
 def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
-   
-    for i in range(10):
-        print i
-        sleep(5) 
-        print("Hello", flush =True)
     pass
 
 #modelop.score
