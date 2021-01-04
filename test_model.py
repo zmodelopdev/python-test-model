@@ -14,7 +14,7 @@ print("Starting program")
 def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
-    print("pass")
+    print("pass", flush=True)
     pass
 
 #modelop.score
