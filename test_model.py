@@ -8,10 +8,13 @@ import math
 
 # This is a second test comment
 
+print("Starting program")
+
 #modelop.init
 def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
+    print("pass")
     pass
 
 #modelop.score
