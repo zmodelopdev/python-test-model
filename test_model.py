@@ -15,7 +15,7 @@ print("Starting program", flush=True)
 def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
-    print("hello", badpart=1,"world")
+    print(1/0)
     print("pass", flush=True)
     pass
 
