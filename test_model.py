@@ -1,13 +1,11 @@
 #fastscore.schema.0: input_schema.avsc
+
 #fastscore.schema.1: output_schema.avsc
 
-import time
 import json
 import math
 
 # This is a test comment
-
-# This is a second test comment
 
 print("Starting program", flush=True)
 
@@ -16,13 +14,6 @@ def begin():
     global coefs
     coefs = json.load(open('external_file_asset.json', 'r'))
     print("pass", flush=True)
-    for x in range(10):
-        print(x, flush=True)
-        localtime = time.localtime()
-        result = time.strftime("%I:%M:%S %p", localtime)
-        print(result, end="", flush=True)
-        print("\r", end="", flush=True)
-        time.sleep(5)
     pass
 
 #modelop.score
