@@ -6,12 +6,7 @@ import json
 import math
 
 # This is a test comment
-
 print("Starting program", flush=True)
-
-# This is a second test comment
-
-print("Testing that this shows up in the source code on MOC", flush=True)
 
 #modelop.init
 def begin():
