@@ -8,6 +8,8 @@ import math
 # This is a test comment
 print("Starting program", flush=True)
 
+# This is another test comment to see if it syncs.
+
 #modelop.init
 def begin():
     global coefs
