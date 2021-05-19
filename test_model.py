@@ -5,11 +5,11 @@
 import json
 import math
 
+# Adding a comment and pushing from my computer rather than directly from Github
 # This is a test comment
 print("Starting program", flush=True)
 
 # This is another test comment to see if it syncs.
-# This is a test comment to see if I can get to a broken state.
 
 #modelop.init
 def begin():
