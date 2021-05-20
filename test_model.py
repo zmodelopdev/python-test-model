@@ -38,3 +38,4 @@ def metrics(data):
     rmse = math.sqrt(sum(list(map(lambda x: x**2, diffs)))/len(diffs))
     mae = sum(list(map(abs, diffs)))/len(diffs)
     yield dict(MAE=mae, RMSE=rmse)
+
