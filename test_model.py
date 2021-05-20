@@ -9,7 +9,6 @@ import math
 print("Starting program", flush=True)
 
 # This is another test comment to see if it syncs.
-# Testing does this sync
 
 #modelop.init
 def begin():
