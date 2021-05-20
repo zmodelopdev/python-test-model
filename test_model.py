@@ -9,7 +9,6 @@ import math
 print("Starting program", flush=True)
 
 # This is another test comment to see if it syncs.
-# Checking to see if this syncs
 
 #modelop.init
 def begin():
@@ -39,4 +38,3 @@ def metrics(data):
     rmse = math.sqrt(sum(list(map(lambda x: x**2, diffs)))/len(diffs))
     mae = sum(list(map(abs, diffs)))/len(diffs)
     yield dict(MAE=mae, RMSE=rmse)
-
