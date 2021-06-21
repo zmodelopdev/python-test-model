@@ -5,10 +5,8 @@
 import json
 import math
 
-# This is a test comment
+# Removed test comments to check syncing to MOC
 print("Starting program", flush=True)
-
-# This is another test comment to see if it syncs.
 
 #modelop.init
 def begin():
