@@ -1,5 +1,6 @@
 {
   "custom" : {
-     "modelImage" : "modelop/runtime:dev-centos8-py38-mon"
+    "modelImage" : "modelop/runtime:dev-centos8-py38-mon",
+    "test": "value"
   }
 }
