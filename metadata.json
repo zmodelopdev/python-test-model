@@ -1,6 +1,6 @@
 {
   "custom" : {
-    "modelImage" : "modelop/runtime:dev-rhel8-ds",
+    "modelImage" : "modelop/runtime:dev-rhel8-mon",
     "test": "value"
   }
 }
