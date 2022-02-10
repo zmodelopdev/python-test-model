@@ -1,6 +1,7 @@
 {
   "custom" : {
     "modelImage" : "modelop/runtime:dev-rhel8-ds",
-    "test": "value"
+    "test": "value",
+    "field", "new"
   }
 }
